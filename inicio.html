@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Servicios</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            position: relative;
+            margin-bottom: 70px; /* Para dejar espacio para el botón fijo */
+        }
+        .card {
+            margin-bottom: 20px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        .card img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(70%);
+        }
+        .card-body {
+            position: relative;
+            z-index: 1;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .card-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .card-text {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        .btn-contacto {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Nuestros Servicios</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/reparacion-celulares.jpg" alt="Servicio 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Reparación de celulares</h5>
+                        <p class="card-text">Descripción breve del servicio 1.</p>
+                        <a href="reparacion.html" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/accesorios.jpg" alt="Servicio 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Venta de accesorios</h5>
+                        <p class="card-text">Descripción breve del servicio 2.</p>
+                        <a href="accesorios.html" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/celulares.jpg" alt="Servicio 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Venta de celulares</h5>
+                        <p class="card-text">Descripción breve del servicio 3.</p>
+                        <a href="celulares.html" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x300" alt="Servicio 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Servicio 4</h5>
+                        <p class="card-text">Descripción breve del servicio 4.</p>
+                        <a href="servicio4.html" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x300" alt="Servicio 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Servicio 5</h5>
+                        <p class="card-text">Descripción breve del servicio 5.</p>
+                        <a href="servicio5.html" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x300" alt="Servicio 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Servicio 6</h5>
+                        <p class="card-text">Descripción breve del servicio 6.</p>
+                        <a href="servicio6.html" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="contacto.html" class="btn btn-primary btn-contacto">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>
